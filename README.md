@@ -1,11 +1,11 @@
 ## Description
 
-This package extends @gedai/tactical-design by implementing concrete data storage integration with Mongoose. It exposes the base Repository class for mongoose implementations that can be used in business application contexts. It also provides concrete implementation of Mongoose Transaction.
+This package extends @gedai/tactical-design by implementing concrete event publishing integration with RabbitMQ via AMQP. In order for this package to work you must provide a global wide AmqpConnect(@golevelup/nestjs-rabbitmq) since it is a requirement for this to work.
 
 ## Installation
 
 ```bash
-$ npm install @gedai/tactical-design @gedai/tactical-design-mongoose
+$ npm install @gedai/tactical-design @golevelup/nestjs-rabbitmq
 ```
 
 ## License
