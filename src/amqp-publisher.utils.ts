@@ -1,4 +1,7 @@
-import { DomainEvent, IntegrationEvent } from '@lootupteam/nestjs-tactical-design';
+import {
+  DomainEvent,
+  IntegrationEvent,
+} from '@lootupteam/nestjs-tactical-design';
 import { Constructor } from '@nestjs/cqrs';
 
 export function toDottedNotation(value: string) {
