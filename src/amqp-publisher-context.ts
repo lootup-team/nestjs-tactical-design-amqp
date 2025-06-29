@@ -1,9 +1,9 @@
-import { AmqpService } from '@gedai/nestjs-amqp';
+import { AmqpService } from '@lootupteam/nestjs-amqp';
 import {
   AggregateEvent,
   AggregateRoot,
   PublisherContext,
-} from '@gedai/nestjs-tactical-design';
+} from '@lootupteam/nestjs-tactical-design';
 import { Inject, Injectable, Logger, forwardRef } from '@nestjs/common';
 import { Constructor } from '@nestjs/cqrs';
 import { MODULE_OPTIONS_TOKEN } from './amqp-publisher-context.module-builder';
